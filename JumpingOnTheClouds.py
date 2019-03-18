@@ -33,7 +33,7 @@ def jumping_on_clouds(c):
     """
 
     :param c: array of binary integers describing the clouds
-    :return:
+    :return: number of minimum jumps
     """
     jumps, position = 0, 0
     while position+1 < len(c):
