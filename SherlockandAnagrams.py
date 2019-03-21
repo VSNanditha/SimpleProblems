@@ -21,7 +21,7 @@
 def sherlock_and_anagrams(s):
     """
     :param s: input string
-    :return:
+    :return: number of anagrams
     """
     anagrams = 0
     substrings = {}
