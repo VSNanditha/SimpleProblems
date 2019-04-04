@@ -58,7 +58,7 @@ def freq_query(queries):
 
 if __name__ == '__main__':
     q = int(input().strip())
-    queries = []
+    queries, data = [], []
     for _ in range(q):
         queries.append(list(map(int, input().rstrip().split())))
     ans = freq_query(queries)
