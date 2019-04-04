@@ -35,7 +35,7 @@ def compare_triplets(a, b):
     """
     :param a: Alice's scores
     :param b: Bob's scores
-    :return:
+    :return: comparison scores
     """
     alice_score, bob_score = 0, 0
     for i in range(3):
