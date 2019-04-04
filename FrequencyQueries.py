@@ -52,13 +52,13 @@ def freq_query(queries):
                 else:
                     data[query[1]] -= 1
         elif query[0] == 3:
-            output.append(1) if query[1] in data.values() else output.append(0)
+            output.append(1) if query[1] <= 10**6 and query[1] in data.values() else output.append(0)
     return output
 
 
 if __name__ == '__main__':
     q = int(input().strip())
-    queries, data = [], []
+    queries = []
     for _ in range(q):
         queries.append(list(map(int, input().rstrip().split())))
     ans = freq_query(queries)
