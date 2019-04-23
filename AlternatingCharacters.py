@@ -18,7 +18,6 @@
 # * Each string s will consist only of characters A and B
 
 
-
 def alternating_characters(s):
     """
     :param s:
