@@ -1,8 +1,8 @@
 def max_min(k, arr):
     """
-    :param k:
-    :param arr:
-    :return:
+    :param k: window size
+    :param arr: list of numbers
+    :return: minimum unfairness
     """
     arr.sort()
     min_unfairness = max(arr[:k]) - min(arr[:k])
