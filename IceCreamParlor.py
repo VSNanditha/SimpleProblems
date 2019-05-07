@@ -43,7 +43,7 @@ def what_flavors(cost, money):
     values = {}
     for i in range(len(cost)):
         if money - cost[i] in values:
-            return i+1, values[money - cost[i]] + 1
+            return i + 1, values[money - cost[i]] + 1
         values[cost[i]] = i
 
 
