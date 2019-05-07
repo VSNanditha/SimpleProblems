@@ -186,7 +186,7 @@ def swap_nodes(indexes, queries):
 
 
 if __name__ == '__main__':
-    sys.setrecursionlimit(100)
+    sys.setrecursionlimit(100000)
     n = int(input())
 
     indexes = []
